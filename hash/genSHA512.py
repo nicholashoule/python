@@ -12,25 +12,25 @@ import sys
 import crypt
 import getpass
 
-
-# print() - Multi-line comment in Python
-# This script is only compatible with crypt (C) on Linux.
-print('''Generate a sha512 password hash as produced by crypt (C)
-Please enter a password to encrypt.
+# Purpose
+# Important: This script is only compatible with crypt (C) on Linux.
+print('''
+Generate a sha512 password hash as produced by crypt (C)
 ''')
 
-# Crypt, as defined by POSIX, doesn't mandate a specific encryption algorithm 
-# hence OSX crypt() isn't compatible with this script. 
+# Crypt, as defined by POSIX, doesn't mandate a specific encryption algorithm
+# hence OSX crypt() isn't compatible with this script.
 if 'linux' not in sys.platform.lower():
     print('This script is only compatible with crypt (C) on Linux.')
     sys.exit(1)
 
 try:
+    print('Please enter a password to encrypt.')
     t1Pass, t2Pass = getpass.getpass(), getpass.getpass('Enter password again: ')
 
     while t1Pass != t2Pass:
-      print('Passwords do not match. Please try and enter your password again.')
-      t1Pass, t2Pass = getpass.getpass(), getpass.getpass('Enter password again: ')
+        print('Passwords do not match. Please try and enter your password again.')
+        t1Pass, t2Pass = getpass.getpass(), getpass.getpass('Enter password again: ')
 
     tPass = t2Pass
 
