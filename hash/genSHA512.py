@@ -13,8 +13,7 @@ import crypt
 import getpass
 
 
-# Program's Purpose
-# Multi-line comment in Python
+# print() - Multi-line comment in Python
 # This script is only compatible with crypt (C) on Linux.
 print('''Generate a sha512 password hash as produced by crypt (C)
 Please enter a password to encrypt.
