@@ -70,11 +70,12 @@ import argparse
 # from local_package import local_function
 # from package.sugar import raw
 
-"""main
-Desc: Defining main function
-Return: None
-"""
+# f: main
 def main(): 
+    """main
+    Desc: Defining main function
+    Return: None
+    """
     print("Hello, Python.")
     print(os.uname())
     print(sys.platform.title())
@@ -83,8 +84,7 @@ def main():
     if args.integers:
         print(args.accumulate(args.integers))
 
-# Using the special variable  
-# __name__ 
+# Using the special variable  __name__ 
 print("Example __name__ = %s" %__name__) 
 
 if __name__ == "__main__":  
