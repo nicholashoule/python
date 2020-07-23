@@ -28,17 +28,19 @@ parser.add_argument('-r', '--rounds', type=int, default=5000,
                     help='specify the rounds')
 args = parser.parse_args()
 
-# Purpose
-# Important: This script is only compatible with crypt (C) on Linux.
-print(parser.description)
 
-
-# verify() - Verify the password hash
+# f: verify
 def verify(tpass, thash):
-    # To-Do:
-    # sha512_crypt.verify(tpass, thash)
+    """verify
+    Desc: Verify the password hash
+    Return: Bool
+    """
+    
     return sha512_crypt.verify(tpass, thash)
 
+
+# Purpose
+print(parser.description)
 
 # Attempt to hash/verify the user's password
 try:
