@@ -1,4 +1,4 @@
-# python
+# Python example project
 
 ![Python example](https://github.com/nicholashoule/python/workflows/Python%20example/badge.svg?branch=master)
 [![Run on Repl.it](https://repl.it/badge/github/nicholashoule/python)](https://repl.it/github/nicholashoule/python)
