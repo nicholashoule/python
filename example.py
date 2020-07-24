@@ -35,8 +35,9 @@ def main():
     if args.integers:
         print(args.accumulate(args.integers))
 
+
 # Using the special variable "__name__"
-print("Example __name__ = %s" %__name__)
+print("Example __name__ = %s " %__name__)
 
 if __name__ == "__main__":
     print("Example is being run directly")
