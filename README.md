@@ -1,6 +1,7 @@
 # python
 
-![Python application](https://github.com/nicholashoule/python/workflows/Python%20application/badge.svg?branch=master)
+![Python genSHA512 (passlib)](https://github.com/nicholashoule/python/workflows/Python%20genSHA512%20(passlib)/badge.svg?branch=master)
+![Python genSHA512 (crypt)](https://github.com/nicholashoule/python/workflows/Python%20genSHA512%20(crypt)/badge.svg?branch=master)
 
 ### pyenv
 
