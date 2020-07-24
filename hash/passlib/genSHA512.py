@@ -35,7 +35,6 @@ def verify(tpass, thash):
     Desc: Verify the password hash
     Return: Bool
     """
-    
     return sha512_crypt.verify(tpass, thash)
 
 
