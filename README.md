@@ -1,5 +1,7 @@
 # python
 
+![Python application](https://github.com/nicholashoule/python/workflows/Python%20application/badge.svg?branch=master)
+
 ### pyenv
 
 URL: https://github.com/pyenv/pyenv
