@@ -22,7 +22,7 @@ import argparse
 
 
 # f: main
-def main(): 
+def main():
     """main
     Desc: Defining main function
     Return: None
@@ -36,9 +36,9 @@ def main():
         print(args.accumulate(args.integers))
 
 # Using the special variable "__name__"
-print("Example __name__ = %s" %__name__) 
+print("Example __name__ = %s" %__name__)
 
-if __name__ == "__main__":  
+if __name__ == "__main__":
     print("Example is being run directly")
 
     # argparse, argument parser
@@ -52,5 +52,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main()
-else:  
+else:
     print("Example is being imported")
