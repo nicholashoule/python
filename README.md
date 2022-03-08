@@ -32,7 +32,7 @@ pipenv sync
 
 ----
 
-##### Pipefile
+##### Pipfile
 
 ```
 [[source]]
